@@ -1,0 +1,25 @@
+.malar h2{
+    /* 
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: -180px; */
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    margin-top: 50px;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen  and (max-width:450px){
+
+.malar h2{
+   display: none;
+}
+
+}
+
