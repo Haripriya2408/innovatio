@@ -1,19 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./About.css"
+import Navbar from './Navbar';
 
  function About() {
   return (
+    
     <div  className='asd' id='About'>
-       <div className='ttt'>
-            ABOUT THE EVENT
-        </div>
+       
+        <div className='ttt'>
+        <span>ABOUT THE EVENT</span></div> 
+        
+   
     
      
      <div className='para'>
       
         <p>
-        Innovatio is a hackathon competition for engineering students, its objective is to develop creative,innovative and practical solutions to real-world problems.Participants work in teams to brainstorm, design, build and test a prototype, often in a very short period of time.The goal is to create something that can be used to solve a problem, either for a specific organization or for the general public.Other objectives may include learning new technologies, developing teamwork, and networking with other participants.
+        A <span>30 HOURS OF HACKATHON</span> competition for engineering students called Innovatio, which aims to find original, cutting-edge, and useful solutions to problems that actually exist in the real world. Teams of participants have a relatively short time to come up with an idea, design, build, and test a prototype. A solution to a problem, either for the general public or for a particular organisation, is what is intended to be produced. New technology learning, teamwork improvement, and networking with other participants could all be additional goals.
        
         <br/>
         <br/>
@@ -23,9 +27,9 @@ import "./About.css"
      <div>
      <ul>
     <li>
-    <h4>📅      11-12 APRIL</h4>
+    <h3>📅11-12 APRIL</h3>
   
-    <h4>🖥️  SONA COLLEGE OF TECHNOLOGY</h4>
+    <h3>🖥️  SONA COLLEGE OF TECHNOLOGY</h3>
   </li>
 
 </ul>
@@ -35,7 +39,7 @@ import "./About.css"
        
        <ul>
         <div className='nav-links-mob'>
-        <Link to="https://docs.google.com/document/d/1jnyF-LfYk2kL_myYiupQR15Z5ZbweSN_jxcrL-HBPQI/edit?usp=sharing">
+        <Link to="https://docs.google.com/document/d/1GYEHmzbcLJZ9VNlPm82WYqOc4rf4zgXb_OI5DhliRkY/edit?usp=sharing">
           <div className='tt'>
      STATEMENTS
           </div></Link>

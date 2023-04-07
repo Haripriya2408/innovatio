@@ -1,15 +1,15 @@
 .NavbarItems{
-    /* background-color: #fff; */
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
    
     width: 95%;
-    height: 65px;
-    margin-top: 15px;
+    height: 0px;
+    margin-top: 0px;
     border-radius: 13px;
-    position: fixed;
+    position: relative;
     top: 20px;
     left: 50%;
     transform: translate(-50%);
@@ -17,10 +17,10 @@
 
 }
 .navbar-logo img{
-    width: -100px;
-    height: 80px;
+    width: 300px;
+    height: 100px;
     margin-left: 6px;
-    margin-top: 10px;
+    margin-top: 100px;
  
 }
 .nav-menu{
@@ -29,6 +29,7 @@
     grid-gap: 10px;
     list-style: none;
     align-items: center;
+    margin-top: 100px;
 }
 .nav-links{
     text-decoration: none;
@@ -37,6 +38,7 @@
     font-weight: 600;
     padding: 0.7rem 1rem;
     white-space: nowrap;
+   
     
 }
 
@@ -71,26 +73,27 @@
     }
     .nav-links i{
         padding-right: 20px;
+        margin-top: 35px;
     
     }
     button{
         display: none;
     }
     .menu-icons i{
-    
-        margin-left: 200px;
+        margin-top: 35px;
+        margin-left: 100px;
     }
     .nav-menu{
         display: flex;
        flex-direction: column;
-
+  
         color: #fff;
       
         background:#031023  ;
      
           opacity: 0.5;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     position: absolute;
     top: 0;
     padding-top: 10px;
@@ -98,7 +101,7 @@
     opacity: 0;
     align-items: stretch;
    
-    margin-top: 70px;
+    margin-top: 200px;
     transition: 0.3s ease-in-out;
     border-radius: 10px;
     }
@@ -106,12 +109,16 @@
         display: block;
         cursor: pointer;
         margin-right: 25%;
+        margin-top: 30px;
     }
     .menu-icons i{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         color: rgb(230, 224, 224);
         padding-left: 9rem;
-       
+        margin-left: 75px;
+        width: 70px;
+        height: 30px;
+        margin-top: 24px;
     }
     .nav-menu.active{
     left: 0;
@@ -119,15 +126,15 @@
     z-index: -1;
     transition: 0.3s ease-in-out;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 30px;
     
     }
     .nav-links{
         display: block;
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 0.5rem;
        align-items: center;
-        margin-top: 20px;
+        margin-top: -45px;
         margin-left:-15px;
     }
     .nav-links:hover{
@@ -137,10 +144,10 @@
     }
 
     .navbar-logo img{
-        margin-left: 45px;
-        width: 150px;
-        height: 50px;
-        margin-top: 3px;
+        margin-left: -25px;
+        width: 70px;
+        height: 30px;
+        margin-top: 40px;
     }
    
   

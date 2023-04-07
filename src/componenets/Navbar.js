@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+
  import "./Navbar.css"
  import SONA from "../assets/sona.png"
  import { Menuitem } from './Menuitem';
@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
     return(
       <nav className='NavbarItems'>
         <div className='navbar-logo'>
-          <img src={SONA}/>
+          <img src={SONA} alt=""/>
         </div>
         <div className='menu-icons' onClick={this.handleclick}>
         {/* <i class="fa-solid fa-bars-staggered"></i>
@@ -48,53 +48,3 @@ import { Link } from 'react-router-dom';
 
 
 
-// import React, { useState } from 'react';
-// import "./Navbar.css"
-// import Back from "../assets/back.mp4"
-// import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-// const Navbar = () => {
-//     const [toggleMenu, setToggleMenu] = useState(false);
-
-//   return (
-//     <div className='Mainnav'>
-//         <div className='navlinks'>
-//             <div className='forlogo'>
-//                 {/* <img src={}></img> */}
-//             </div>
-//             <div className='link-contain'>
-//             <p><a href="#About">ABOUT</a></p>
-//           <p><a href="#Themes">THEMES</a></p>
-//           <p><a href="#prices">PRICES</a></p>
-//           <p><a href="#schedule">SCHEDULE</a></p>
-//           <p><a href="#sponsors">SPONSORS</a></p>
-//           <p><a href="#contact">CONTACT</a></p>
-//             </div>
-//             </div>
-//             <div className="navbar-menu">
-//             {toggleMenu
-//         ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-//           : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
-//         {toggleMenu && (
-//         <div className="gpt3__navbar-menu_container scale-up-center">
-//           <div className="navbar-menu_container-links">
-//           <p><a href="#About">ABOUT</a></p>
-//           <p><a href="#Themes">THEMES</a></p>
-//           <p><a href="#prices">PRICES</a></p>
-//           <p><a href="#schedule">SCHEDULE</a></p>
-//           <p><a href="#sponsors">SPONSORS</a></p>
-//           <p><a href="#contact">CONTACT</a></p>
-//           </div>
-//         </div>
-//         )}
-//       </div>
-        
-        
-   
-    
-//     </div>
-
-   
-//   )
-// }
-
-// export default Navbar

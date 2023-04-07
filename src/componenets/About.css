@@ -2,8 +2,8 @@
 .asd{
     width: 100%;
     height: 100%;
-    margin-top: 20%;
-    margin-bottom: 15%;
+    margin-top: 3%;
+    margin-bottom: 5%;
    
   
 }
@@ -21,14 +21,12 @@
     font-size: 40px;
   display: flex;
   justify-content: center;
-  font-size: 60px;
-  font-weight: 700;
+
+  font-weight: 500;
   letter-spacing: 3px;
     
 }
-.para{
-    justify-content: space-evenly;
-}
+
 .date{
     color: #fff;
 }
@@ -37,7 +35,7 @@
     text-align: justify;
  margin-left: 50px;
 
-line-height: 33px;
+
     margin-right: 50px;
     padding: 0 5rem;
     color: #ffffffcc;
@@ -143,6 +141,13 @@ letter-spacing:0.1px;
    border-radius: 10px;
 
 }
+.para  p span{
+    font-size: 20px;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .nav-links-mob:hover{
     animation: pulsate 1s ease-in-out;
 }
@@ -157,67 +162,85 @@ letter-spacing:0.1px;
  
 
     .asd{
-        margin-left: 1%;
-        margin-top: 60%;
+       
+        margin-top: 35%;
 
-        width: 210%;
+        
     }
   .para p{
-    display: flex;
-    margin-left: 20px;
-    margin-right: -20px;
+   
+   padding: 1rem;
+   margin-left: 15px;
+   margin-right: 10px;
+   margin-top: 30px;
+    font-size: 13px;
+  }
+  .para p span{
+    font-size: 12px;
   }
 
 
 
     .ttt{
         padding-left: 4rem;
-        font-size: 30px;
+        font-size: 25px;
       text-align: center;
+      margin-left: -65px;
+      margin-top: -70px;
     } 
+    .asd .ttt span{
+        font-size: 18px;
+    }
     .para li{
    
         display: flex;
         grid-template-columns: repeat(2);
-        grid-gap: 150px;
+        grid-gap: 120px;
         list-style: none;
         align-items: center;
         color: #fffbff;
         font-size: 17px;
-        margin-left: 20%;
+        margin-left: 25%;
         margin-right: 10%;
     }
     .nav-links-mob{
         display: inline-block;
      
-        width: 180px;
-        height: 80px;
+        width: 120px;
+        height: 40px;
         text-decoration: none;
-       margin-left: 30px;
-        margin-top: 100px;
+       margin-left: 10px;
+        margin-top: 50sspx;
         /* border: 3px solid rgb(5, 2, 48); */
         background:var(--gradient-text);
         border-radius: 10px;
      
      }
+   
      .tt{
         display: flexbox;
         padding: 0.3rem 0rem ;
-        margin-top: 26px;
+        margin-top: 12px;
         font-weight: 700;
         white-space: nowrap;
         border-radius: 0.3rem;
-        font-size: 17px;
-        margin-left: 12px;
+        font-size: 10px;
+        margin-left: 8px;
          letter-spacing: 3px;
         color:#f1f1e9;
       text-align: center;
      
     
     }
+    h3{
+        font-size: 8px;
+        margin-left:-43px;
+        margin-right: 2px;
+        padding: 1rem;
+    }
 
     /* 
-    
+
     .hds{
         margin-top: 310px;
         margin-right: 13px;

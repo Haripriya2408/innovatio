@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b893da0a.css",
+    "main.js": "/static/js/main.38e77a41.js",
+    "static/media/back.mp4": "/static/media/back.4ccce28bf4e774bba5fc.mp4",
+    "static/media/Road.jpg": "/static/media/Road.c0c73acb55cd63846427.jpg",
+    "static/media/Frame 8.png": "/static/media/Frame 8.2bd1c354b945bbaf39d6.png",
+    "static/media/certi.jpg": "/static/media/certi.27e09d23f40c4dcae7c8.jpg",
+    "static/media/guest.jpg": "/static/media/guest.3faa9c25f0e55f444ba8.jpg",
+    "static/media/sona.png": "/static/media/sona.52b68eb2db1bceb56b14.png",
+    "static/media/win.jpg": "/static/media/win.4815337f6634aa90546a.jpg",
+    "static/media/bagprice.jpeg": "/static/media/bagprice.bb1f5efa7b8e291241af.jpeg",
+    "static/media/bg-pattern-card.svg": "/static/media/bg-pattern-card.b61daebd3cb4b885d10fd683755d49bb.svg",
+    "index.html": "/index.html",
+    "main.b893da0a.css.map": "/static/css/main.b893da0a.css.map",
+    "main.38e77a41.js.map": "/static/js/main.38e77a41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b893da0a.css",
+    "static/js/main.38e77a41.js"
+  ]
+}

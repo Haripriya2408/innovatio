@@ -1,6 +1,6 @@
 .tooo{
   
-   
+   margin-top: 20px;
     width:100%;
     min-height:100vh;
     display:flex;
@@ -8,11 +8,13 @@
     align-items:center;
 }
 
+
+
 .timeline{
     width:50%;
     margin-top: 250px;
-    margin-bottom: 250px;
-    height: 100%;
+    margin-bottom: 400px;
+    height: 150%;
    
    background: var( --gradient-text);
     color:#fff;
@@ -37,11 +39,15 @@
 
   }
   .content   a{
-   
+        text-decoration: underline;
        cursor:pointer;
       font-style: italic;
-      font-size: 27px;
-      font-weight: 700;
+      
+  }
+  h5{
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
   }
   .content   a:hover{
    color:coral;
@@ -53,9 +59,11 @@
  
     transition:.5s;
   }
-  .timeline ul li span{
+  .timeline ul li h4{
     display:inline-block;
    background-color: #042c54;
+   margin-top: 0px;
+   margin-bottom: 50px;
     border-radius:20px;
     padding:15px 15px;
     font-size:20px;
@@ -97,23 +105,56 @@
   @media (max-width:490px){
     .tooo{
    
-    width: 200%;
-      margin-top: 100%;
+    width: 100%;
+      margin-top: 10px;
+      height: 100%;
+      margin-left: -40px;
+  }
+  .timeline h1{
+    margin-left: 15px;
+    font-size: 25px;
+    font-style: n;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    
+
+  }
+  .content a{
+    font-size: 12px;
   }
  
     .timeline{
-      width:90%;
-      padding:30px 5px 30px 10px;
-     margin-left: 90px;
+      width:100%;
+      padding:20px 2px 20px 2px;
+     margin-left: 65px;
+     margin-right: -25px;
+     margin-bottom: 150px;
      height: 20%;
      font-size: 20px;
+    }
+    h5{
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: 100;
+      margin-left: 20px;
+      color: #fff;
     }
     .timeline ul{
       margin-left: 23px;
     }
-    .timeline ul li .content h3{
+    .timeline ul li h4{
+     
+     margin-top: -10px;
+     margin-bottom: 30px;
+      border-radius:20px;
+      padding:10px 10px;
+      font-size:12px;
+      text-align:center;
+      letter-spacing: 2px;
+    }
+  .content h3{
       color:#c6d0d4;
-      font-size:15px;
+      font-size:10px;
     }
     .timeline ul li{
       margin-left: -30px;
@@ -125,7 +166,7 @@
     
      
       left:17px;
-      top:34px;
+      top:22px;
     
     }
   

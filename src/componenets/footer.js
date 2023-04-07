@@ -7,12 +7,10 @@ import LINKLO from "../assets/Frame 8.png"
   return (
     <div className='nul'>
     <div className="gpt3__footer section__padding" id="contact">
-    <div className="gpt3__footer-heading">
-      <h1 className="gradient__text"></h1>
-    </div>
+    
 
   
-
+    <div>
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         <img src={SONA} alt="gpt3_logo" />
@@ -21,26 +19,26 @@ import LINKLO from "../assets/Frame 8.png"
       
       <div className="gpt3__footer-links_div">
       <h3> STUDENT COORDINATORS</h3>
-        <h4>Haripriya Veluchamy</h4>
+        <h4>Haripriya V</h4>
         <p>6380122394</p>
-        <h4>M Kavipriya</h4>
+        <h4>Kavipriya M</h4>
+        <p>6382894559</p>
+        <h4>Karthi Balaji S</h4>
         <p>9025870042</p>
-        <h4>S Karthi Balaji</h4>
-        <p>9025870042</p>
-        <h4>V Gokula Krishnan</h4>
+        <h4>Gokula Krishnan V</h4>
         <p>7708202836</p>
         
       </div>
       <div className="gpt3__footer-links_div">
         <h3>STAFF COORDINATORS</h3>
-        <h4>Dr.J Jeyanthi</h4>
-        <p>Professer CSE</p>
+        <h4>Dr.J Jayanthi</h4>
+        <p>Professor CSE</p>
         <p>9894897069</p>
         <h4>S K Fathima </h4>
-        <p> Assistent Professer CSE</p>
+        <p> Assistent Professor CSE</p>
         <p>9629512991</p>
         <h4>K S Jayareka</h4>
-        <p> Assistent Professer CSE</p>
+        <p> Assistent Professor CSE</p>
         <p>99486309599</p>
      
       </div>
@@ -48,18 +46,21 @@ import LINKLO from "../assets/Frame 8.png"
       <h3>CONTACT US</h3>
         
         <h4>LOCATION</h4>
-        <p>sona college of technology <br/>TPT main road<br/>suramangalam salem</p>
+        <p>Sona College Of Technology <br/>TPT main road<br/>suramangalam salem<br/>636005</p>
       
         <h4>MAIL</h4>
-        <p>innovatio.23threads@gmail.com</p>
+        <p>hackinnovatio@gmail.com</p>
       </div>
-    </div>
+    </div> 
   
-    <div className="gpt3__footer-copyright">
+     <div className="gpt3__footer-copyright">
       <p>designed by team "INNOVATIO!"❤️</p>
     </div>
   </div>
   </div>
+  </div>
+
+
  
   )
 }

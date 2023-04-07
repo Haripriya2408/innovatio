@@ -22,14 +22,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 700;
+font-family: "gilroybold";
 
-font-style: italic;
 }
 
 .text-box li:hover{
- color: coral;
+ color: rgb(241, 174, 3);
 }
 
 Video {
@@ -70,7 +70,7 @@ opacity: 0.9;
         
     }
   a{
-    font-size: 17px;
+    font-size: 10px;
   }
     .hero-text p{
       margin-top: 10px;
@@ -79,18 +79,19 @@ opacity: 0.9;
   
      Video {
      
-     height: 1000%;
-     width: 223.9%;
-   
-    margin-top: 0px;
+     height: 120%;
+     width:102%;
+   position: relative;
+   margin-top: 0px;
        height: 100%;
   
    opacity: 0.9;
      
      } 
      .text-box li{
-      margin-left: 60%;
-      margin-top: 25%;
+      margin-left: 1%;
+      margin-top: 15%;
+      
      }
    
    
